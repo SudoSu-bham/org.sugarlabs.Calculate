@@ -1,0 +1,22 @@
+diff --git a/layout.py b/layout.py
+index 426e1de..e0a5c98 100644
+--- a/layout.py
++++ b/layout.py
+@@ -35,6 +35,8 @@ from toolbars import MiscToolbar
+ 
+ from numerals import local as _n
+ 
++from sugarapp.widgets import ExtendedActivityToolbarButton
++
+ try:
+     from sugar3.graphics.toolbarbox import ToolbarButton, ToolbarBox
+     from sugar3.activity.widgets import ActivityToolbarButton
+@@ -138,7 +140,7 @@ class CalcLayout:
+ 
+ # Toolbar
+         self._toolbar_box = ToolbarBox()
+-        activity_button = ActivityToolbarButton(self._parent)
++        activity_button = ExtendedActivityToolbarButton(self._parent)
+         self._toolbar_box.toolbar.insert(activity_button, 0)
+ 
+         def append(icon_name, label, page, position):
