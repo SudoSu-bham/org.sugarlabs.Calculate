@@ -41,16 +41,7 @@
                 {
                     "type": "patch",
                     "path": "calculate-info.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "calculate-layout.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "calculate-toolbars.patch"
                 }
-
             ],
             "post-install": [
                 "sugarapp-gen-mimetypes activity/activity.info mimetypes",
