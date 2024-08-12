@@ -26,13 +26,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/sugarlabs/calculate-activity",
-                    "tag": "v47",
-                    "commit": "6163512f28b0df115ddc8571771a88e294324421",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^v([\\d.]+)$"
-
-                    }
+                    "commit": "b5067c32bdd4fae9cc7166ce26bc8de62993d165"
                 },
                 {
                     "type": "patch",
